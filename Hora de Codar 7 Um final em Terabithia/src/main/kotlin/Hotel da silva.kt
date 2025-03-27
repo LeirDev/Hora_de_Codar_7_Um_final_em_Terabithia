@@ -11,7 +11,7 @@ fun main() {
     println("Bem vindo ao $nomeHotel")
 
     if (!login()) {
-        println("Acesso negado encerrando o sistema paezao")
+        println("Acesso negado encerrando o sistema")
         return
     }
 
