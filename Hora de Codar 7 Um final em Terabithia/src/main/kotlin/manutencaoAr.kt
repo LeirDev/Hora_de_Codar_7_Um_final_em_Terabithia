@@ -31,6 +31,8 @@ do {
             valorAparelho * quantidadeAparelhos
         }
 
+        println("O serviço da empresa $nomeEmpresa é R$$valorTotalComDesconto")
+
         empresasManutencao.add(Informacoes(nomeEmpresa, valorAparelho, quantidadeAparelhos, desconto, minimoAparelhosDesconto, valorTotalComDesconto))
 
         println("Deseja informar novos dados, $nomeUsuario? (S/N)")
